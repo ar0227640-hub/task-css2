@@ -1,32 +1,131 @@
-.navbar{
+body {
+  color: #ffffff;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: Poppins;
+}
+.logo {
+  padding-top: 30px;
+}
+
+.lists .row {
+  gap: 80px;
+  padding-top: 62px;
+}
+.lists a {
+  font-weight: 400;
+  size: 22px;
+  color: #5b5b5b;
+}
+
+.profile .row {
+  gap: 12px;
+  padding-top: 46px;
+}
+.corses {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+.profile p {
+  font-weight: 500;
+  color: #000000;
+  size: 18px;
+}
+/* maaaaaaaaaaaaaaaaaaaaaaaaaaiiiiiiiiiiiiiiiiin */
+.Rectangle {
+  display: flex;
+  background-color: #9dccff;
+  width: auto;
+  height: auto;
+}
+.nextLesson {
+  display: flex;
+  font-family: Poppins;
+  width: auto;
+  height: auto;
+  margin: 52px 66px 53px 18px;
+}
+.welcome_massge p {
+  color: #252641;
+  font-weight: 600;
+  size: 36px;
+  font-weight: bold;
+  width: 966px;
+  height: 54px;
+}
+.View_hisotry {
+  color: #49bbbd;
+  size: 20px;
+  margin: 18px 54px 0px 587px;
+}
+.lesson1 {
+  width: calc((100% - 60px) / 3);
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.AWS_Certified {
+  padding: 20px 19px 20px 12px;
+  border-radius: 20px;
+  color: #171b41;
+}
+.AWS_Certified img {
+  justify-content: center;
+  border-radius: 20px;
+}
+.AWS_Certified p {
+  font-family: Poppins;
+  font-size: 20px;
+  color: #252641;
+}
+.AWS_profile {
+  align-items: center;
+  display: flex;
+  width: 42px;
+  height: 42px;
+  color: #d9d9d9;
+  border-radius: 60px;
+  margin: 0px 0px 25px 0px;
+}
+.AWS_profile img {
+  margin: 0 15px 0 25px;
+  justify-content: start;
+  border-radius: 60px;
+  width: 42px;
+  height: 42px;
+}
+.AWS_profile p {
+  font-family: Poppins;
+  color: #000000;
+}
+
+.bar img {
+  padding: 0 21px 12px 25px;
+
+}
+.bar p {
+    padding: 0 22px 12px 0;
+    display: flex;
+  font-family: Poppins;
+  color: #00000080;
+  justify-content: flex-end;
+}
+.top_category{
+  height: 54px;
 display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-font-family:Poppins;
+  margin:82px 0 53px 0 ;
 
 }
-.logo{
-    padding-top: 30px;
-}
-
-
-.lists .row{
-    gap: 80px;
-     padding-top: 62px;
-
-}
-.lists a{
-    font-weight: 400;
-    size: 22px;
-    color: #5B5B5B;
-}
-
-.profile .row{
-    gap: 12px;
-    padding-top: 46px;
-}
-.profile p{
-    font-weight: 500;
-    color: #000000;
-    size: 18px;
+.masseg p{
+    height: 54px;
+  /* margin: 200px 0; */
+  color: #252641;
+  font-family: Poppins;
+  font-size: 36px;
+justify-content: start;
 }
