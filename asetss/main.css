@@ -58,19 +58,21 @@ body {
   margin: 52px 66px 53px 18px;
 }
 
+.avo{
+  display: flex;
+  gap: 700px;
+}
 .welcome_massge {
-  color: #252641;
+ color: #252641;
   font-weight: 600;
   size: 36px;
   font-weight: bold;
-  width: 966px;
+  /* width: 966px; */
   height: 54px;
 }
-
 .View_hisotry {
   color: #49bbbd;
   size: 20px;
-  margin: 18px 54px 0px 587px;
 }
 
 .lesson1 {
@@ -223,12 +225,15 @@ body {
   /* display: flex; */
   width: auto;
   height: auto;
-  background-color: #49BBBD;
+  background-color: #9DCCFF;
   padding: 120px 57px 108px 122px;
 
 }
 .cards {
-  background-color: #D9D9D9;
+   justify-content: space-between;
+    /* gap: 20px; */
+  display: flex;
+  color: #D9D9D9;
   width: 1000px;
 }
 
@@ -245,7 +250,7 @@ body {
   height: 45;
   color: #000000;
   font-family: Poppins;
-  font-size: 30px;
+  padding-bottom:20px ;
 
 }
 
@@ -253,8 +258,129 @@ body {
   color: #49BBBD;
   font-family: Poppins;
   font-size: 20px;
-  margin-top: 30px;
 }
 .card{
-
+ width: 23%;
+height: 617px;
+background-color: #ffffff;
+  border-radius: 20px;
+box-shadow: 0px 18px 47.08px 0 #2F327D1A;
+}
+.card_head{
+  padding-top: 20px;
+}
+.card_img{
+  
+  height: 239px;
+  border-radius: 20px;
+  margin: 0px 20px ;
+}
+.card_meta{
+  width: 233px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card_category{
+  display: flex;
+  gap: 9.8px;
+/* width: 92.45px; */
+height: 22px;
+border-radius: 2px;
+/* margin:20px 0px 0px 26.8px; */
+}
+.card_category p{
+  /* width: 61.63px; */
+  height:22px ;
+  font-family:Poppins ;
+  font-size:14px ;
+  color: #696984;
+}
+.card_category img{
+  /* width: 20.87692642211914px; */
+  height: 21px;
+}
+.card_duration{
+  /* width: 110px; */
+  height: 28px;
+  display: flex;
+  gap: 10px;
+  /* text-align: center; */
+  /* margin: 20px 18px 14px 130px; */
+}
+.card_duration img{
+  width: 23px;
+  height: 28px;
+}
+.card_duration p{
+  /* padding: 2px 0 4px 0; */
+  text-align: center;
+  /* width: 80px; */
+  height: 28px;
+  font-family: Poppins;
+  color: #696984;
+}
+.card_titel{
+  /* justify-content: center; */
+  text-align: center;
+  /* width: 322.1px; */
+  height: 77px;
+  font-family: Poppins;
+  font-size: 24px;
+  color: #252641;
+  /* margin: 0 22px 21px 28px; */
+}
+.card_desc{
+  /* justify-content: center; */
+  text-align: center;
+  /* width: 326.1px; */
+  height: 102px;
+  font-family: Poppins;
+  /* font-size: 20px; */
+  color: #696984;
+  /* margin: 0 18px 17px 26px; */
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  /* width: 326px; */
+  height: 44px;
+}
+.card_author {
+display: flex;
+gap:17px;
+/* margin: 0 107px 34px 26px; */
+}
+.card_author img{
+  width: 44px;
+  height: 44px;
+}
+.card_author p{
+width: 50px;
+  height: 18px;
+  font-family: Poppins;
+  color: #000000;
+  padding-top:12px ;
+}
+.card_price{
+  display: flex;
+  gap: 14px;
+  margin-top:10px ;
+}
+.new_price{
+  width: 41px;
+  height: 19px;
+  font-family: Poppins;
+  color: #00000080;
+}
+.old_price{
+    width: 41px;
+  height: 19px;
+  font-family: Poppins;
+  color: #00000080;
+  text-decoration:line-through;
+}
+.choice_of_your_course .cards{
+width: 1264px;
+height: 50px;
 }
