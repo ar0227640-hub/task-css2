@@ -382,5 +382,80 @@ width: 50px;
 }
 .choice_of_your_course .cards{
 width: 1264px;
-height: 50px;
+height: 650px;
+}
+.Rectangle_footer{
+  
+  background-color: #252641;
+  width:3008px;
+  height: 593px;
+
+}
+.logo{
+  width: 121.06928253173828px;
+  height: 83px;
+  /* margin: 74px 125px 95px 500px; */
+}
+.header_footer{
+  display: flex;
+    padding-top: 83px;
+    gap: 100px;
+    justify-content: center;
+
+}
+.header_footer p{
+  margin-top: 50px;
+  width: 30px;
+  height: 66px;
+  font-family: Poppins;
+  color: #ffffff;
+}
+.Subscribe1{
+  
+  text-align: center;
+  padding-top: 50px;
+ /* width: 300px; */
+ font-size: 20px;
+  height: 30px;
+  font-family: Poppins;
+  color: #B2B3CF;
+}
+.subscribe{
+  width: 100%;               /* ياخد عرض أبوه كامل */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.subscribe_input{
+  width: 425px;
+  height: 60px;
+  padding: 0 30px;
+  background-color: transparent;
+  border: 1px solid #8a8fb5;
+  border-radius: 30px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 18px;
+  outline: none;
+}
+
+.subscribe_input::placeholder{
+  color: #8a8fb5;
+}
+
+.subscribe_input:focus{
+  border-color: #49bbbd;
+}
+
+.subscribe_btn{
+  width: 190px;
+  height: 60px;
+  background-color: #49bbbd;
+  border-radius: 30px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 20px;
+  cursor: pointer;
 }
